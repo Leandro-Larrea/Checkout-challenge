@@ -22,7 +22,7 @@ let items = document.querySelectorAll(".store__datos")
 		console.log(itemPrice[i])
 		n += itemPrice[i]
 	}
-	document.querySelector(".final-price").textContent = n
+	document.querySelector(".final-price").textContent = n;
 }
 
 total()
